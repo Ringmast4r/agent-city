@@ -14,8 +14,13 @@ reasonable place to keep them.
 | `pixel-agents/` | [pixel-agents-hq/pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) | **MIT**, Copyright (c) 2026 Pablo De Lucca | Assets appear to be the project's own work, bundled under the repo licence. Cleanest provenance of anything here |
 | `agent-town/` | [rafapetter/agent-town](https://github.com/rafapetter/agent-town) | Repo licence; screenshots are the project's own documentation images | Screenshots only, no code or sprites |
 | `ai-town/` | [a16z-infra/ai-town](https://github.com/a16z-infra/ai-town) | MIT for the code. **Art is third-party, credited upstream** | Upstream credits: [16x16 game assets by George Bailey](https://opengameart.org/content/16x16-game-assets), [16x16 RPG tileset by hilau](https://opengameart.org/content/16x16-rpg-tileset), [Tiny RPG Forest by ansimuz](https://opengameart.org/content/tiny-rpg-forest) (all OpenGameArt), and UI from [Mounir Tohami](https://mounirtohami.itch.io/pixel-art-gui-elements). Check each OpenGameArt entry's own CC0/CC-BY terms before reuse |
-| `generative-agents/` | [joonspk-research/generative_agents](https://github.com/joonspk-research/generative_agents) | Apache 2.0 for the code; cover image is the project's own | Character sprite provenance upstream is unclear - study only |
-| `code-city/` | [wettel.github.io/codecity.html](https://wettel.github.io/codecity.html) and [gource.io](https://gource.io/) | Screenshots from the projects' own public pages | Academic and project promotional images, used here as design reference |
+| `generative-agents/` | [joonspk-research/generative_agents](https://github.com/joonspk-research/generative_agents) | Apache 2.0 for the code; cover image is the project's own | Character sprite and map-tile provenance upstream is mixed - study only. Cute RPG World packs were **not** copied |
+| `agent-office/` | [harishkotra/agent-office](https://github.com/harishkotra/agent-office) | Repo licence | Own `packages/ui/public` character sprites only. The vendored `pixel-agents-repo/` copy inside that repo was not mirrored again |
+| `jscity/` | [aserg-ufmg/JSCity](https://github.com/aserg-ufmg/JSCity) `gh-pages/cities/` | GPL-2.0 for the code; stills are the project's own city renders | 60 wiki stills of real JS systems as cities |
+| `3d-city/` | [lo-th/3d.city](https://github.com/lo-th/3d.city) | Repo licence | Previews + a handful of textures. Sounds left out |
+| `city-tour/` | [jstrait/city-tour](https://github.com/jstrait/city-tour) | Repo licence | `city_tour.gif` + grid texture |
+| `gource/` | [acaudwell/Gource](https://github.com/acaudwell/Gource) | GPL-3.0 | Tiny bundled sprites. Promotional stills live under `code-city/` |
+| `code-city/` | [wettel.github.io/codecity.html](https://wettel.github.io/codecity.html) and [gource.io](https://gource.io/) | Screenshots from the projects' own public pages | Academic and project promotional images, including the Wall of Fame, used here as design reference |
 
 ---
 
@@ -32,6 +37,10 @@ during the download and excluded on purpose.
 If Agent City ever wants tiles at that quality, they get **bought**, not copied. Given
 the design direction is flat untextured geometry in the CodeCity mould, it very likely
 never needs them.
+
+`generative-agents/map_assets/v1`–`v3` (interiors, TopDownHouse, grassland) were kept:
+they are the tiles the Smallville map is actually assembled from, separate from the
+paid Cute RPG World pack. Provenance is still mixed; study only.
 
 ---
 

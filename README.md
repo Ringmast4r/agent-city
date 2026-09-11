@@ -50,7 +50,7 @@ combining.
 
 | Risky-sounding piece | Already proven by | Verdict |
 |:--|:--|:--|
-| Reading agent activity out of Claude Code live | `pixel-agents`, 9.2k stars | Solved, two ways |
+| Reading agent activity out of Claude Code live | `pixel-agents`, 9,243 stars | Solved, two ways |
 | Parsing a multi-GB `~/.claude/projects` corpus | `token-dashboard` - Python stdlib + SQLite, 20-60 s full scan | Solved, at this exact scale |
 | Turning a file tree into a 3D city in a browser | `JSCity` (three.js) | Solved |
 | Animating repo history over a time axis | `Gource`, since 2009 | Solved |
@@ -74,35 +74,119 @@ has at all, a back catalogue of 1,553 sessions to replay as a chronicle.
 
 ## `> prior_art`
 
-Surveyed 2026-09-11. Assets for the starred entries are mirrored under `reference/`.
+Surveyed 2026-09-11, **sorted by GitHub stars**. Screenshots and sprites are under [`reference/`](reference/README.md) so you can see what each one actually looks like.
 
 ### Agent-as-citizen (the people)
 
 | Project | Stars | Stack | How it knows what the agent is doing |
-|:--|:--|:--|:--|
-| **[pixel-agents](https://github.com/pixel-agents-hq/pixel-agents)** * | **9.2k** | TypeScript, React 19 + Vite, **Canvas 2D**, Fastify, Node 20+, esbuild, Vitest + Playwright | **Real telemetry.** Claude Code **hooks primary** (`SessionStart`, `PreToolUse`, `PermissionRequest`, `Stop`) with a **JSONL fallback** over `~/.claude/projects/`. Both normalise into one `AgentEvent` model behind a typed `HookProvider` interface |
+|:--|--:|:--|:--|
+| **[Generative Agents](https://github.com/joonspk-research/generative_agents)** * | **22,087** | Python + Django, Phaser frontend (Smallville) | Simulated. The 2023 paper that started the aesthetic |
+| **[AI Town](https://github.com/a16z-infra/ai-town)** * | **10,473** | **PixiJS + pixi-react**, **Convex** (db + serverless + vector search), Clerk, Fly.io | Simulated. 60 ticks/s bundled into one DB step/s; clients replay "historical objects" for smooth motion between sparse writes |
+| **[pixel-agents](https://github.com/pixel-agents-hq/pixel-agents)** * | **9,243** | TypeScript, React 19 + Vite, **Canvas 2D**, Fastify, Node 20+, esbuild, Vitest + Playwright | **Real telemetry.** Claude Code **hooks primary** (`SessionStart`, `PreToolUse`, `PermissionRequest`, `Stop`) with a **JSONL fallback** over `~/.claude/projects/`. Both normalise into one `AgentEvent` model behind a typed `HookProvider` interface |
+| [agent-office](https://github.com/harishkotra/agent-office) * | 265 | Phaser.js, Colyseus, React, SQLite, Ollama | Simulated - a think loop every ~15 s. SQLite memories with embedding + cosine recall |
 | [agent-town](https://github.com/rafapetter/agent-town) * | 5 | Pure TypeScript, **zero dependencies**, Canvas 2D, procedural pixel art | Direct TS API (`addAgent`, `updateAgent`, `logActivity`) plus a WebSocket bridge for Claude Code / Cursor / Codex |
-| [agent-office](https://github.com/harishkotra/agent-office) | 265 | Phaser.js, Colyseus, React, SQLite, Ollama | Simulated - a think loop every ~15 s. SQLite memories with embedding + cosine recall |
-| [AI Town](https://github.com/a16z-infra/ai-town) * | ~9.8k | **PixiJS + pixi-react**, **Convex** (db + serverless + vector search), Clerk, Fly.io | Simulated. 60 ticks/s bundled into one DB step/s; clients replay "historical objects" for smooth motion between sparse writes |
-| [Generative Agents](https://github.com/joonspk-research/generative_agents) * | ~20k | Python + Django, Phaser frontend (Smallville) | Simulated. The 2023 paper that started the aesthetic |
 
 ### Code-as-city (the buildings)
 
-| Project | Stack | Mapping |
-|:--|:--|:--|
-| **[JSCity](https://github.com/aserg-ufmg/JSCity)** | **three.js** | Folders are districts, files are sub-districts, **buildings are functions**; height = LOC, base = variable count |
-| [CodeCity](https://wettel.github.io/codecity.html) * (Wettel, 2008) | VisualWorks Smalltalk on Moose, OpenGL | Packages are districts, classes are buildings, methods are floors. **The target look** |
-| [Gource](https://github.com/acaudwell/gource) * | C++, OpenGL/SDL | Repo history as an animated tree, committers as avatars. The time axis done right |
-| [city-tour](https://github.com/jstrait/city-tour), [3d.city](https://github.com/lo-th/3d.city) | three.js, WebGL2/WebGPU | Procedural city generation - layout and camera reference |
+| Project | Stars | Stack | Mapping |
+|:--|--:|:--|:--|
+| **[Gource](https://github.com/acaudwell/gource)** * | **13,138** | C++, OpenGL/SDL | Repo history as an animated tree, committers as avatars. The time axis done right |
+| **[3d.city](https://github.com/lo-th/3d.city)** * | **1,744** | three.js, WebGL2/WebGPU | Procedural city builder - layout, camera, textured blocks |
+| **[JSCity](https://github.com/aserg-ufmg/JSCity)** * | **1,400** | **three.js** | Folders are districts, files are sub-districts, **buildings are functions**; height = LOC, base = variable count |
+| [city-tour](https://github.com/jstrait/city-tour) * | 88 | three.js, WebGL | Procedural city generation - layout and camera reference |
+| [CodeCity](https://wettel.github.io/codecity.html) * (Wettel, 2008) | — | VisualWorks Smalltalk on Moose, OpenGL | Packages are districts, classes are buildings, methods are floors. **The target look.** No GitHub repo; academic original |
 
 ### Claude Code transcript tooling (the data pipeline)
 
-| Project | Stack | Notes |
-|:--|:--|:--|
-| **[token-dashboard](https://github.com/nateherkai/token-dashboard)** | **Python 3 stdlib only**, **SQLite**, vanilla JS + ECharts, **no build step** | Scans `~/.claude/projects/`, dedupes by `message.id`, **20-60 s full initial scan on a heavy machine**, re-scan every 30 s over SSE. Tool and file heatmaps |
-| [claude-code-log](https://github.com/daaain/claude-code-log) | Python CLI | JSONL to HTML / Markdown |
-| [claude-code-transcripts](https://github.com/simonw/claude-code-transcripts) | Python | JSONL to paginated static HTML |
-| [ClaudeCodeJSONLParser](https://github.com/amac0/ClaudeCodeJSONLParser) | HTML tool | JSONL events and git history on one timeline - closest to the chronicle idea |
+| Project | Stars | Stack | Notes |
+|:--|--:|:--|:--|
+| [claude-code-transcripts](https://github.com/simonw/claude-code-transcripts) | **1,686** | Python | JSONL to paginated static HTML |
+| [claude-code-log](https://github.com/daaain/claude-code-log) | 1,213 | Python CLI | JSONL to HTML / Markdown |
+| **[token-dashboard](https://github.com/nateherkai/token-dashboard)** | 694 | **Python 3 stdlib only**, **SQLite**, vanilla JS + ECharts, **no build step** | Scans `~/.claude/projects/`, dedupes by `message.id`, **20-60 s full initial scan on a heavy machine**, re-scan every 30 s over SSE. Tool and file heatmaps |
+| [ClaudeCodeJSONLParser](https://github.com/amac0/ClaudeCodeJSONLParser) | 20 | HTML tool | JSONL events and git history on one timeline - closest to the chronicle idea |
+
+---
+
+## `> look`
+
+Highest stars first. These files live in this repo under `reference/`, so they render here and open on disk.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Generative Agents — 22,087 ★**
+Smallville. The map is furniture; the paper that started the look.
+
+<img src="reference/generative-agents/the_ville_collision.png" alt="Smallville map"/>
+
+</td>
+<td width="50%" valign="top">
+
+**Gource — 13,138 ★**
+Repo history as a growing tree. The time axis, done.
+
+<img src="reference/code-city/gource-linux.jpg" alt="Gource Linux history"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**AI Town — 10,473 ★**
+PixiJS town, OpenGameArt tiles.
+
+<img src="reference/ai-town/tilesets/magecity.png" alt="AI Town magecity tileset"/>
+
+</td>
+<td width="50%" valign="top">
+
+**pixel-agents — 9,243 ★**
+Top-down office. Real Claude Code telemetry. Map is furniture.
+
+<img src="reference/pixel-agents/Screenshot.jpg" alt="pixel-agents office"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**3d.city — 1,744 ★**
+Procedural textured city. Pretty, not a metric.
+
+<img src="reference/3d-city/img/preview02.jpg" alt="3d.city preview"/>
+
+</td>
+<td width="50%" valign="top">
+
+**JSCity — 1,400 ★**
+AngularJS as a three.js city. Height = LOC.
+
+<img src="reference/jscity/cities/angular.png" alt="JSCity AngularJS"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**CodeCity — 2008, the target look**
+Flat colour, no texture. Every box is a class.
+
+<img src="reference/code-city/codecity-screenshot.png" alt="CodeCity screenshot"/>
+
+</td>
+<td width="50%" valign="top">
+
+**agent-town — 5 ★**
+Kanban as terrain. Position = task state.
+
+<img src="reference/agent-town/playground-town.png" alt="agent-town playground"/>
+
+</td>
+</tr>
+</table>
+
+More stills: [JSCity cities](reference/jscity/cities/) (60 systems), [CodeCity Wall of Fame](reference/code-city/wof/), [city-tour.gif](reference/city-tour/city_tour.gif), [3d.city previews](reference/3d-city/img/).
 
 ---
 
@@ -157,11 +241,16 @@ Agent City/
 └── reference/                # competitor assets, mirrored for study
     ├── README.md             # the three design patterns, side by side
     ├── ATTRIBUTION.md        # licences + what was deliberately NOT mirrored
-    ├── pixel-agents/         # MIT - characters, floors, furniture + manifests
-    ├── agent-town/           # 11 screenshots, 7 themed playgrounds
-    ├── ai-town/              # tilesets + spritesheets (OpenGameArt credited)
-    ├── generative-agents/    # Smallville cover + character sheets
-    └── code-city/            # CodeCity + Gource - the target look
+    ├── generative-agents/    # 22,087 ★ Smallville map + characters + tiles
+    ├── gource/               # 13,138 ★ beam/file/user sprites
+    ├── ai-town/              # 10,473 ★ tilesets, spritesheets, UI
+    ├── pixel-agents/         #  9,243 ★ office furniture + character sheets
+    ├── 3d-city/              #  1,744 ★ previews + building textures
+    ├── jscity/               #  1,400 ★ 60 city stills (Angular, jQuery, …)
+    ├── agent-office/         #    265 ★ character sprites
+    ├── city-tour/            #     88 ★ city_tour.gif
+    ├── agent-town/           #      5 ★ 11 screenshots, 7 themed playgrounds
+    └── code-city/            # academic original + Wall of Fame stills
 ```
 
 ---
@@ -188,8 +277,8 @@ M0 through M2 is the honest minimum for something worth showing.
 | **Sessions on disk** | `1,553` | `~/.claude/projects/**/*.jsonl` |
 | **Corpus size** | `2.5 GB` | Grows every session |
 | **Largest session** | `17,256` | Lines in one `.jsonl` |
-| **Prior-art projects surveyed** | `15` | Across three camps |
-| **Reference assets mirrored** | `210` | 16 MB, licences in `ATTRIBUTION.md` |
+| **Prior-art projects surveyed** | `15` | Across three camps, tables sorted by stars |
+| **Reference assets mirrored** | `397` | 40 MB under `reference/`, licences in `ATTRIBUTION.md` |
 | **Lines of Agent City code** | `0` | Idea stage |
 
 ---

@@ -68,13 +68,20 @@ and 2 do not have.
 
 ## Folder map
 
-| Folder | What is in it | Worth opening |
-|:--|:--|:--|
-| `pixel-agents/` | The full bundled asset set: `assets/characters/` (6 sheets), `floors/` (9), `carpets/`, `walls/`, `furniture/` (each with a `manifest.json` describing sprites, rotation groups, state groups, animation frames), plus `office.png`, `characters.png`, `banner.png` | `Screenshot.jpg` first, then any `furniture/*/manifest.json` - that manifest format is a solved problem worth copying |
-| `agent-town/` | 11 screenshots: 7 themed playgrounds + 4 dashboard views (agents, analytics, kanban, timeline) | `playground-town.png`, then `playground-office.png` to see the same mechanic reskinned |
-| `ai-town/` | `public-assets/` runtime tilesets and spritesheets, `spritesheets/` editor sheets, `tilesets/` (gentle, forest, magecity, Serene), `background.webp` | The spritesheets, for how they cut character motion frames |
-| `generative-agents/` | `smallville-cover.png` (the 2023 paper's cover image) and `characters/` sprite sheets | The cover, for the aesthetic that started all of this |
-| `code-city/` | `codecity-screenshot.png`, `codecity-ated-ict-2008.png`, `gource-linux.jpg`, `gource-papervision.jpg`, `gource-git.jpg` | **`codecity-screenshot.png` - this is the target look** |
+Sorted by upstream GitHub stars. Open these first.
+
+| Folder | Stars | What is in it | Worth opening |
+|:--|--:|:--|:--|
+| `generative-agents/` | 22,087 | Smallville cover, 25 character sheets, speech bubbles, `the_ville_collision.png` (the actual town map), interior/house/grassland tiles (`map_assets/v1`–`v3`) | **`the_ville_collision.png`** - this is Smallville |
+| `gource/` | 13,138 | `beam.png`, `file.png`, `user.png` sprites | With the stills in `code-city/gource-*.jpg` |
+| `ai-town/` | 10,473 | Runtime tilesets, editor spritesheets, UI SVGs, animation JSON | `tilesets/magecity.png`, then `spritesheets/peeps.png` |
+| `pixel-agents/` | 9,243 | Full bundled asset set: 6 character sheets, 9 floors, furniture each with `manifest.json`, pets, bubble sprites | `Screenshot.jpg` first, then any `furniture/*/manifest.json` |
+| `3d-city/` | 1,744 | Preview stills + building/town/tile textures | `img/preview02.jpg` |
+| `jscity/` | 1,400 | 60 city stills from the project wiki (Angular, jQuery, React, three.js, …) | **`cities/angular.png`** |
+| `agent-office/` | 265 | Own character sprites (`char_0`–`char_5`, `characters.png`) | `characters.png` |
+| `city-tour/` | 88 | `city_tour.gif` | The gif |
+| `agent-town/` | 5 | 11 screenshots: 7 themed playgrounds + 4 dashboard views | `playground-town.png` |
+| `code-city/` | — | CodeCity screenshot, ATED prize still, Gource stills, **Wall of Fame** (JDK, ArgoUML, JHotDraw, Vuze, Moose, Jmol) | **`codecity-screenshot.png` - this is the target look**, then `wof/jdk.png` |
 
 ---
 
