@@ -117,148 +117,1066 @@ Surveyed 2026-09-11, **sorted by GitHub stars**. Screenshots and sprites are und
 
 ## `> look`
 
-Highest stars first. Every image is a file in this repo under `reference/`.
+Every visual file under `reference/` is embedded below — **350 images**, highest stars first.
 
-### Generative Agents — 22,087 ★
+| Project | Stars | Images |
+|:--|--:|--:|
+| [Generative Agents](#generative-agents) | 22,087 | 99 |
+| [Gource](#gource) | 13,138 | 3 |
+| [AI Town](#ai-town) | 10,473 | 57 |
+| [pixel-agents](#pixel-agents) | 9,243 | 64 |
+| [3d.city](#3dcity) | 1,744 | 15 |
+| [JSCity](#jscity) | 1,400 | 80 |
+| [agent-office](#agent-office) | 265 | 7 |
+| [city-tour](#city-tour) | 88 | 2 |
+| [agent-town](#agent-town) | 5 | 11 |
+| [CodeCity](#codecity) | — | 12 |
 
-Smallville. The 2023 paper that started the look. The map is a town, not a codebase.
+### Generative Agents
 
-<img width="100%" src="reference/generative-agents/the_ville_collision.png" alt="Smallville map"/>
+[Generative Agents](https://github.com/joonspk-research/generative_agents) — **22,087 ★** — `99` files in `reference/generative-agents/`
 
-<img width="100%" src="reference/generative-agents/cover.png" alt="Generative Agents paper cover"/>
+**`cover.png`**
 
-<p>
-<img src="reference/generative-agents/characters/Isabella_Rodriguez.png" width="19%" alt="Isabella Rodriguez"/>
-<img src="reference/generative-agents/characters/Klaus_Mueller.png" width="19%" alt="Klaus Mueller"/>
-<img src="reference/generative-agents/characters/Maria_Lopez.png" width="19%" alt="Maria Lopez"/>
-<img src="reference/generative-agents/characters/John_Lin.png" width="19%" alt="John Lin"/>
-<img src="reference/generative-agents/characters/Abigail_Chen.png" width="19%" alt="Abigail Chen"/>
-</p>
+<img width="100%" src="reference/generative-agents/cover.png" alt="cover.png"/>
 
-### Gource — 13,138 ★
+**`smallville-cover.png`**
 
-Repo history as a growing tree. The time axis, done since 2009.
+<img width="100%" src="reference/generative-agents/smallville-cover.png" alt="smallville-cover.png"/>
 
-<img width="100%" src="reference/code-city/gource-linux.jpg" alt="Gource Linux"/>
+**`the_ville2.png`**
 
-<p>
-<img src="reference/code-city/gource-git.jpg" width="49%" alt="Gource git"/>
-<img src="reference/code-city/gource-papervision.jpg" width="49%" alt="Gource Papervision"/>
-</p>
+<img width="100%" src="reference/generative-agents/the_ville2.png" alt="the_ville2.png"/>
 
-### AI Town — 10,473 ★
+**`the_ville_collision.png`**
 
-PixiJS town. Tilesets are OpenGameArt; the live view is a Stardew-style map.
-
-<img width="100%" src="reference/ai-town/background.webp" alt="AI Town background"/>
-
-<p>
-<img src="reference/ai-town/tilesets/magecity.png" width="32%" alt="magecity tileset"/>
-<img src="reference/ai-town/tilesets/forest.png" width="32%" alt="forest tileset"/>
-<img src="reference/ai-town/spritesheets/peeps.png" width="32%" alt="character spritesheet"/>
-</p>
-
-### pixel-agents — 9,243 ★
-
-Top-down office. Real Claude Code telemetry. The map is furniture.
-
-<img width="100%" src="reference/pixel-agents/Screenshot.jpg" alt="pixel-agents office screenshot"/>
+<img width="100%" src="reference/generative-agents/the_ville_collision.png" alt="the_ville_collision.png"/>
 
 <p>
-<img src="reference/pixel-agents/office.png" width="49%" alt="office layout"/>
-<img src="reference/pixel-agents/characters.png" width="49%" alt="character lineup"/>
+<img src="reference/generative-agents/atlas.png" width="16%" alt="atlas.png" title="atlas.png"/>
 </p>
 
-### 3d.city — 1,744 ★
-
-Procedural textured city. Pretty. Not a metric.
+#### `generative-agents/characters`
 
 <p>
-<img src="reference/3d-city/img/preview01.jpg" width="32%" alt="3d.city preview 1"/>
-<img src="reference/3d-city/img/preview02.jpg" width="32%" alt="3d.city preview 2"/>
-<img src="reference/3d-city/img/preview03.jpg" width="32%" alt="3d.city preview 3"/>
+<img src="reference/generative-agents/characters/Abigail_Chen.png" width="16%" alt="Abigail_Chen.png" title="Abigail_Chen.png"/><img src="reference/generative-agents/characters/Adam_Smith.png" width="16%" alt="Adam_Smith.png" title="Adam_Smith.png"/><img src="reference/generative-agents/characters/Arthur_Burton.png" width="16%" alt="Arthur_Burton.png" title="Arthur_Burton.png"/><img src="reference/generative-agents/characters/Ayesha_Khan.png" width="16%" alt="Ayesha_Khan.png" title="Ayesha_Khan.png"/><img src="reference/generative-agents/characters/Carlos_Gomez.png" width="16%" alt="Carlos_Gomez.png" title="Carlos_Gomez.png"/><img src="reference/generative-agents/characters/Carmen_Ortiz.png" width="16%" alt="Carmen_Ortiz.png" title="Carmen_Ortiz.png"/><img src="reference/generative-agents/characters/Eddy_Lin.png" width="16%" alt="Eddy_Lin.png" title="Eddy_Lin.png"/><img src="reference/generative-agents/characters/Francisco_Lopez.png" width="16%" alt="Francisco_Lopez.png" title="Francisco_Lopez.png"/><img src="reference/generative-agents/characters/Giorgio_Rossi.png" width="16%" alt="Giorgio_Rossi.png" title="Giorgio_Rossi.png"/><img src="reference/generative-agents/characters/Hailey_Johnson.png" width="16%" alt="Hailey_Johnson.png" title="Hailey_Johnson.png"/><img src="reference/generative-agents/characters/Isabella_Rodriguez.png" width="16%" alt="Isabella_Rodriguez.png" title="Isabella_Rodriguez.png"/><img src="reference/generative-agents/characters/Jane_Moreno.png" width="16%" alt="Jane_Moreno.png" title="Jane_Moreno.png"/><img src="reference/generative-agents/characters/Jennifer_Moore.png" width="16%" alt="Jennifer_Moore.png" title="Jennifer_Moore.png"/><img src="reference/generative-agents/characters/John_Lin.png" width="16%" alt="John_Lin.png" title="John_Lin.png"/><img src="reference/generative-agents/characters/Klaus_Mueller.png" width="16%" alt="Klaus_Mueller.png" title="Klaus_Mueller.png"/><img src="reference/generative-agents/characters/Latoya_Williams.png" width="16%" alt="Latoya_Williams.png" title="Latoya_Williams.png"/><img src="reference/generative-agents/characters/Maria_Lopez.png" width="16%" alt="Maria_Lopez.png" title="Maria_Lopez.png"/><img src="reference/generative-agents/characters/Mei_Lin.png" width="16%" alt="Mei_Lin.png" title="Mei_Lin.png"/><img src="reference/generative-agents/characters/Rajiv_Patel.png" width="16%" alt="Rajiv_Patel.png" title="Rajiv_Patel.png"/><img src="reference/generative-agents/characters/Ryan_Park.png" width="16%" alt="Ryan_Park.png" title="Ryan_Park.png"/><img src="reference/generative-agents/characters/Sam_Moore.png" width="16%" alt="Sam_Moore.png" title="Sam_Moore.png"/><img src="reference/generative-agents/characters/Tamara_Taylor.png" width="16%" alt="Tamara_Taylor.png" title="Tamara_Taylor.png"/><img src="reference/generative-agents/characters/Tom_Moreno.png" width="16%" alt="Tom_Moreno.png" title="Tom_Moreno.png"/><img src="reference/generative-agents/characters/Wolfgang_Schulz.png" width="16%" alt="Wolfgang_Schulz.png" title="Wolfgang_Schulz.png"/><img src="reference/generative-agents/characters/Yuriko_Yamamoto.png" width="16%" alt="Yuriko_Yamamoto.png" title="Yuriko_Yamamoto.png"/>
 </p>
 
-### JSCity — 1,400 ★
-
-JavaScript systems as three.js cities. Height = LOC, base = variables. Blue = named functions, green = anonymous.
+#### `generative-agents/characters/original`
 
 <p>
-<img src="reference/jscity/cities/angular.png" width="24%" alt="JSCity AngularJS"/>
-<img src="reference/jscity/cities/jquery.png" width="24%" alt="JSCity jQuery"/>
-<img src="reference/jscity/cities/react.png" width="24%" alt="JSCity React"/>
-<img src="reference/jscity/cities/threejs.png" width="24%" alt="JSCity three.js"/>
-</p>
-<p>
-<img src="reference/jscity/cities/bootstrap.png" width="24%" alt="JSCity Bootstrap"/>
-<img src="reference/jscity/cities/leaflet.png" width="24%" alt="JSCity Leaflet"/>
-<img src="reference/jscity/cities/ghost.png" width="24%" alt="JSCity Ghost"/>
-<img src="reference/jscity/cities/ember.png" width="24%" alt="JSCity Ember"/>
+<img src="reference/generative-agents/characters/original/Abigail_Chen.png" width="16%" alt="Abigail_Chen.png" title="Abigail_Chen.png"/><img src="reference/generative-agents/characters/original/Adam_Smith.png" width="16%" alt="Adam_Smith.png" title="Adam_Smith.png"/><img src="reference/generative-agents/characters/original/Arthur_Burton.png" width="16%" alt="Arthur_Burton.png" title="Arthur_Burton.png"/><img src="reference/generative-agents/characters/original/Ayesha_Khan.png" width="16%" alt="Ayesha_Khan.png" title="Ayesha_Khan.png"/><img src="reference/generative-agents/characters/original/Carlos_Gomez.png" width="16%" alt="Carlos_Gomez.png" title="Carlos_Gomez.png"/><img src="reference/generative-agents/characters/original/Carmen_Ortiz.png" width="16%" alt="Carmen_Ortiz.png" title="Carmen_Ortiz.png"/><img src="reference/generative-agents/characters/original/Eddy_Lin.png" width="16%" alt="Eddy_Lin.png" title="Eddy_Lin.png"/><img src="reference/generative-agents/characters/original/Francisco_Lopez.png" width="16%" alt="Francisco_Lopez.png" title="Francisco_Lopez.png"/><img src="reference/generative-agents/characters/original/Giorgio_Rossi.png" width="16%" alt="Giorgio_Rossi.png" title="Giorgio_Rossi.png"/><img src="reference/generative-agents/characters/original/Hailey_Johnson.png" width="16%" alt="Hailey_Johnson.png" title="Hailey_Johnson.png"/><img src="reference/generative-agents/characters/original/Isabella_Rodriguez.png" width="16%" alt="Isabella_Rodriguez.png" title="Isabella_Rodriguez.png"/><img src="reference/generative-agents/characters/original/Jane_Moreno.png" width="16%" alt="Jane_Moreno.png" title="Jane_Moreno.png"/><img src="reference/generative-agents/characters/original/Jennifer_Moore.png" width="16%" alt="Jennifer_Moore.png" title="Jennifer_Moore.png"/><img src="reference/generative-agents/characters/original/John_Lin.png" width="16%" alt="John_Lin.png" title="John_Lin.png"/><img src="reference/generative-agents/characters/original/Klaus_Mueller.png" width="16%" alt="Klaus_Mueller.png" title="Klaus_Mueller.png"/><img src="reference/generative-agents/characters/original/Latoya_Williams.png" width="16%" alt="Latoya_Williams.png" title="Latoya_Williams.png"/><img src="reference/generative-agents/characters/original/Maria_Lopez.png" width="16%" alt="Maria_Lopez.png" title="Maria_Lopez.png"/><img src="reference/generative-agents/characters/original/Mei_Lin.png" width="16%" alt="Mei_Lin.png" title="Mei_Lin.png"/><img src="reference/generative-agents/characters/original/Rajiv_Patel.png" width="16%" alt="Rajiv_Patel.png" title="Rajiv_Patel.png"/><img src="reference/generative-agents/characters/original/Ryan_Park.png" width="16%" alt="Ryan_Park.png" title="Ryan_Park.png"/><img src="reference/generative-agents/characters/original/Sam_Moore.png" width="16%" alt="Sam_Moore.png" title="Sam_Moore.png"/><img src="reference/generative-agents/characters/original/Tamara_Taylor.png" width="16%" alt="Tamara_Taylor.png" title="Tamara_Taylor.png"/><img src="reference/generative-agents/characters/original/Tom_Moreno.png" width="16%" alt="Tom_Moreno.png" title="Tom_Moreno.png"/><img src="reference/generative-agents/characters/original/Wolfgang_Schulz.png" width="16%" alt="Wolfgang_Schulz.png" title="Wolfgang_Schulz.png"/><img src="reference/generative-agents/characters/original/Yuriko_Yamamoto.png" width="16%" alt="Yuriko_Yamamoto.png" title="Yuriko_Yamamoto.png"/>
 </p>
 
-The other 50-odd stills are in [`reference/jscity/cities/`](reference/jscity/cities/).
-
-### CodeCity — 2008, the target look
-
-Flat colour, no texture. Every box is a class. This is the camera and the language.
-
-<img width="100%" src="reference/code-city/codecity-screenshot.png" alt="CodeCity screenshot"/>
-
-Wall of Fame — real systems, same metaphor:
+#### `generative-agents/characters/profile`
 
 <p>
-<img src="reference/code-city/wof/jdk.png" width="32%" alt="CodeCity JDK 1.5"/>
-<img src="reference/code-city/wof/argouml.png" width="32%" alt="CodeCity ArgoUML"/>
-<img src="reference/code-city/wof/jhotdraw7.png" width="32%" alt="CodeCity JHotDraw7"/>
+<img src="reference/generative-agents/characters/profile/Abigail_Chen.png" width="16%" alt="Abigail_Chen.png" title="Abigail_Chen.png"/><img src="reference/generative-agents/characters/profile/Adam_Smith.png" width="16%" alt="Adam_Smith.png" title="Adam_Smith.png"/><img src="reference/generative-agents/characters/profile/Arthur_Burton.png" width="16%" alt="Arthur_Burton.png" title="Arthur_Burton.png"/><img src="reference/generative-agents/characters/profile/Ayesha_Khan.png" width="16%" alt="Ayesha_Khan.png" title="Ayesha_Khan.png"/><img src="reference/generative-agents/characters/profile/Carlos_Gomez.png" width="16%" alt="Carlos_Gomez.png" title="Carlos_Gomez.png"/><img src="reference/generative-agents/characters/profile/Carmen_Ortiz.png" width="16%" alt="Carmen_Ortiz.png" title="Carmen_Ortiz.png"/><img src="reference/generative-agents/characters/profile/Eddy_Lin.png" width="16%" alt="Eddy_Lin.png" title="Eddy_Lin.png"/><img src="reference/generative-agents/characters/profile/Francisco_Lopez.png" width="16%" alt="Francisco_Lopez.png" title="Francisco_Lopez.png"/><img src="reference/generative-agents/characters/profile/Giorgio_Rossi.png" width="16%" alt="Giorgio_Rossi.png" title="Giorgio_Rossi.png"/><img src="reference/generative-agents/characters/profile/Hailey_Johnson.png" width="16%" alt="Hailey_Johnson.png" title="Hailey_Johnson.png"/><img src="reference/generative-agents/characters/profile/Isabella_Rodriguez.png" width="16%" alt="Isabella_Rodriguez.png" title="Isabella_Rodriguez.png"/><img src="reference/generative-agents/characters/profile/Jane_Moreno.png" width="16%" alt="Jane_Moreno.png" title="Jane_Moreno.png"/><img src="reference/generative-agents/characters/profile/Jennifer_Moore.png" width="16%" alt="Jennifer_Moore.png" title="Jennifer_Moore.png"/><img src="reference/generative-agents/characters/profile/John_Lin.png" width="16%" alt="John_Lin.png" title="John_Lin.png"/><img src="reference/generative-agents/characters/profile/Klaus_Mueller.png" width="16%" alt="Klaus_Mueller.png" title="Klaus_Mueller.png"/><img src="reference/generative-agents/characters/profile/Latoya_Williams.png" width="16%" alt="Latoya_Williams.png" title="Latoya_Williams.png"/><img src="reference/generative-agents/characters/profile/Maria_Lopez.png" width="16%" alt="Maria_Lopez.png" title="Maria_Lopez.png"/><img src="reference/generative-agents/characters/profile/Mei_Lin.png" width="16%" alt="Mei_Lin.png" title="Mei_Lin.png"/><img src="reference/generative-agents/characters/profile/Rajiv_Patel.png" width="16%" alt="Rajiv_Patel.png" title="Rajiv_Patel.png"/><img src="reference/generative-agents/characters/profile/Ryan_Park.png" width="16%" alt="Ryan_Park.png" title="Ryan_Park.png"/><img src="reference/generative-agents/characters/profile/Sam_Moore.png" width="16%" alt="Sam_Moore.png" title="Sam_Moore.png"/><img src="reference/generative-agents/characters/profile/Tamara_Taylor.png" width="16%" alt="Tamara_Taylor.png" title="Tamara_Taylor.png"/><img src="reference/generative-agents/characters/profile/Tom_Moreno.png" width="16%" alt="Tom_Moreno.png" title="Tom_Moreno.png"/><img src="reference/generative-agents/characters/profile/Wolfgang_Schulz.png" width="16%" alt="Wolfgang_Schulz.png" title="Wolfgang_Schulz.png"/><img src="reference/generative-agents/characters/profile/Yuriko_Yamamoto.png" width="16%" alt="Yuriko_Yamamoto.png" title="Yuriko_Yamamoto.png"/>
 </p>
+
+#### `generative-agents/map_assets/v1`
+
+**`Interiors_32x32_full.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/Interiors_32x32_full.png" alt="Interiors_32x32_full.png"/>
+
+**`interiors_pt1.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/interiors_pt1.png" alt="interiors_pt1.png"/>
+
+**`interiors_pt2.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/interiors_pt2.png" alt="interiors_pt2.png"/>
+
+**`interiors_pt3.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/interiors_pt3.png" alt="interiors_pt3.png"/>
+
+**`interiors_pt4.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/interiors_pt4.png" alt="interiors_pt4.png"/>
+
+**`interiors_pt5.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/interiors_pt5.png" alt="interiors_pt5.png"/>
+
+**`Room_Builder_32x32.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v1/Room_Builder_32x32.png" alt="Room_Builder_32x32.png"/>
+
+#### `generative-agents/map_assets/v2`
+
+**`TopDownHouse_DoorsAndWindows.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v2/TopDownHouse_DoorsAndWindows.png" alt="TopDownHouse_DoorsAndWindows.png"/>
+
+**`TopDownHouse_FloorsAndWalls.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v2/TopDownHouse_FloorsAndWalls.png" alt="TopDownHouse_FloorsAndWalls.png"/>
+
+**`TopDownHouse_FurnitureState1.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v2/TopDownHouse_FurnitureState1.png" alt="TopDownHouse_FurnitureState1.png"/>
+
+**`TopDownHouse_FurnitureState2.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v2/TopDownHouse_FurnitureState2.png" alt="TopDownHouse_FurnitureState2.png"/>
+
+**`TopDownHouse_SmallItems.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v2/TopDownHouse_SmallItems.png" alt="TopDownHouse_SmallItems.png"/>
+
+#### `generative-agents/map_assets/v3`
+
+**`tileset-grassland-grass.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v3/tileset-grassland-grass.png" alt="tileset-grassland-grass.png"/>
+
+**`tileset-grassland-paths.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v3/tileset-grassland-paths.png" alt="tileset-grassland-paths.png"/>
+
+**`tileset-grassland-props.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v3/tileset-grassland-props.png" alt="tileset-grassland-props.png"/>
+
+**`tileset-grassland-water.png`**
+
+<img width="100%" src="reference/generative-agents/map_assets/v3/tileset-grassland-water.png" alt="tileset-grassland-water.png"/>
+
+#### `generative-agents/speech_bubble`
+
 <p>
-<img src="reference/code-city/wof/vuze.png" width="32%" alt="CodeCity Vuze"/>
-<img src="reference/code-city/wof/moose-suite.png" width="32%" alt="CodeCity Moose"/>
-<img src="reference/code-city/wof/jmol.png" width="32%" alt="CodeCity Jmol"/>
+<img src="reference/generative-agents/speech_bubble/v1.png" width="16%" alt="v1.png" title="v1.png"/><img src="reference/generative-agents/speech_bubble/v2.png" width="16%" alt="v2.png" title="v2.png"/><img src="reference/generative-agents/speech_bubble/v3.png" width="16%" alt="v3.png" title="v3.png"/>
 </p>
 
-### agent-office — 265 ★
+---
 
-Phaser office. Simulated think-loop, not telemetry.
+### Gource
+
+[Gource](https://github.com/acaudwell/Gource) — **13,138 ★** — `3` files in `reference/gource/`
 
 <p>
-<img src="reference/agent-office/characters.png" width="49%" alt="agent-office characters"/>
-<img src="reference/agent-office/char_0.png" width="8%" alt="char 0"/>
-<img src="reference/agent-office/char_1.png" width="8%" alt="char 1"/>
-<img src="reference/agent-office/char_2.png" width="8%" alt="char 2"/>
-<img src="reference/agent-office/char_3.png" width="8%" alt="char 3"/>
-<img src="reference/agent-office/char_4.png" width="8%" alt="char 4"/>
-<img src="reference/agent-office/char_5.png" width="8%" alt="char 5"/>
+<img src="reference/gource/beam.png" width="16%" alt="beam.png" title="beam.png"/><img src="reference/gource/file.png" width="16%" alt="file.png" title="file.png"/><img src="reference/gource/user.png" width="16%" alt="user.png" title="user.png"/>
 </p>
 
-### city-tour — 88 ★
+---
 
-Procedural three.js flythrough.
+### AI Town
 
-<img width="100%" src="reference/city-tour/city_tour.gif" alt="city-tour flythrough"/>
+[AI Town](https://github.com/a16z-infra/ai-town) — **10,473 ★** — `57` files in `reference/ai-town/`
 
-### agent-town — 5 ★
+**`background.webp`**
 
-Kanban as terrain. Same mechanic, seven skins. Position = task state.
+<img width="100%" src="reference/ai-town/background.webp" alt="background.webp"/>
 
-<img width="100%" src="reference/agent-town/playground-town.png" alt="agent-town town"/>
+#### `ai-town/editor`
+
+**`campfire.png`**
+
+<img width="100%" src="reference/ai-town/editor/campfire.png" alt="campfire.png"/>
+
+**`doll.png`**
+
+<img width="100%" src="reference/ai-town/editor/doll.png" alt="doll.png"/>
+
+**`forest.png`**
+
+<img width="100%" src="reference/ai-town/editor/forest.png" alt="forest.png"/>
+
+**`gentle-obj.png`**
+
+<img width="100%" src="reference/ai-town/editor/gentle-obj.png" alt="gentle-obj.png"/>
+
+**`gentle.png`**
+
+<img width="100%" src="reference/ai-town/editor/gentle.png" alt="gentle.png"/>
+
+**`gentlesparkle32.png`**
+
+<img width="100%" src="reference/ai-town/editor/gentlesparkle32.png" alt="gentlesparkle32.png"/>
+
+**`gentlewaterfall32.png`**
+
+<img width="100%" src="reference/ai-town/editor/gentlewaterfall32.png" alt="gentlewaterfall32.png"/>
+
+**`magecity.png`**
+
+<img width="100%" src="reference/ai-town/editor/magecity.png" alt="magecity.png"/>
+
+**`peeps.png`**
+
+<img width="100%" src="reference/ai-town/editor/peeps.png" alt="peeps.png"/>
+
+**`phantasy2.png`**
+
+<img width="100%" src="reference/ai-town/editor/phantasy2.png" alt="phantasy2.png"/>
+
+**`Serene.png`**
+
+<img width="100%" src="reference/ai-town/editor/Serene.png" alt="Serene.png"/>
+
+**`tall.png`**
+
+<img width="100%" src="reference/ai-town/editor/tall.png" alt="tall.png"/>
+
+**`windmill.png`**
+
+<img width="100%" src="reference/ai-town/editor/windmill.png" alt="windmill.png"/>
+
+**`women.png`**
+
+<img width="100%" src="reference/ai-town/editor/women.png" alt="women.png"/>
+
+#### `ai-town/public-assets`
+
+**`32x32folk.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/32x32folk.png" alt="32x32folk.png"/>
+
+**`gentle-obj.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/gentle-obj.png" alt="gentle-obj.png"/>
+
+**`heart-empty.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/heart-empty.png" alt="heart-empty.png"/>
+
+**`magecity.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/magecity.png" alt="magecity.png"/>
+
+**`player.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/player.png" alt="player.png"/>
+
+**`rpg-tileset.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/rpg-tileset.png" alt="rpg-tileset.png"/>
+
+#### `ai-town/public-assets/spritesheets`
+
+**`campfire.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/spritesheets/campfire.png" alt="campfire.png"/>
+
+**`gentlesparkle32.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/spritesheets/gentlesparkle32.png" alt="gentlesparkle32.png"/>
+
+**`gentlewaterfall32.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/spritesheets/gentlewaterfall32.png" alt="gentlewaterfall32.png"/>
+
+**`windmill.png`**
+
+<img width="100%" src="reference/ai-town/public-assets/spritesheets/windmill.png" alt="windmill.png"/>
+
+#### `ai-town/spritesheets`
+
+**`campfire.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/campfire.png" alt="campfire.png"/>
+
+**`doll.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/doll.png" alt="doll.png"/>
+
+**`gentlesparkle32.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/gentlesparkle32.png" alt="gentlesparkle32.png"/>
+
+**`gentlewaterfall32.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/gentlewaterfall32.png" alt="gentlewaterfall32.png"/>
+
+**`peeps.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/peeps.png" alt="peeps.png"/>
+
+**`tall.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/tall.png" alt="tall.png"/>
+
+**`windmill.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/windmill.png" alt="windmill.png"/>
+
+**`women.png`**
+
+<img width="100%" src="reference/ai-town/spritesheets/women.png" alt="women.png"/>
+
+#### `ai-town/tilesets`
+
+**`forest.png`**
+
+<img width="100%" src="reference/ai-town/tilesets/forest.png" alt="forest.png"/>
+
+**`gentle-obj.png`**
+
+<img width="100%" src="reference/ai-town/tilesets/gentle-obj.png" alt="gentle-obj.png"/>
+
+**`gentle.png`**
+
+<img width="100%" src="reference/ai-town/tilesets/gentle.png" alt="gentle.png"/>
+
+**`magecity.png`**
+
+<img width="100%" src="reference/ai-town/tilesets/magecity.png" alt="magecity.png"/>
+
+**`phantasy2.png`**
+
+<img width="100%" src="reference/ai-town/tilesets/phantasy2.png" alt="phantasy2.png"/>
+
+**`Serene.png`**
+
+<img width="100%" src="reference/ai-town/tilesets/Serene.png" alt="Serene.png"/>
+
+#### `ai-town/ui`
+
+**`background.webp`**
+
+<img width="100%" src="reference/ai-town/ui/background.webp" alt="background.webp"/>
 
 <p>
-<img src="reference/agent-town/playground-office.png" width="32%" alt="office skin"/>
-<img src="reference/agent-town/playground-farm.png" width="32%" alt="farm skin"/>
-<img src="reference/agent-town/playground-pirate-ship.png" width="32%" alt="pirate ship skin"/>
+<img src="reference/ai-town/ui/a16z.png" width="16%" alt="a16z.png" title="a16z.png"/><img src="reference/ai-town/ui/box.svg" width="16%" alt="box.svg" title="box.svg"/><img src="reference/ai-town/ui/bubble-left.svg" width="16%" alt="bubble-left.svg" title="bubble-left.svg"/><img src="reference/ai-town/ui/bubble-right.svg" width="16%" alt="bubble-right.svg" title="bubble-right.svg"/><img src="reference/ai-town/ui/button.svg" width="16%" alt="button.svg" title="button.svg"/><img src="reference/ai-town/ui/button_pressed.svg" width="16%" alt="button_pressed.svg" title="button_pressed.svg"/><img src="reference/ai-town/ui/chats.svg" width="16%" alt="chats.svg" title="chats.svg"/><img src="reference/ai-town/ui/close.svg" width="16%" alt="close.svg" title="close.svg"/><img src="reference/ai-town/ui/convex-bg.webp" width="16%" alt="convex-bg.webp" title="convex-bg.webp"/><img src="reference/ai-town/ui/convex.svg" width="16%" alt="convex.svg" title="convex.svg"/><img src="reference/ai-town/ui/desc.svg" width="16%" alt="desc.svg" title="desc.svg"/><img src="reference/ai-town/ui/frame.svg" width="16%" alt="frame.svg" title="frame.svg"/><img src="reference/ai-town/ui/help.svg" width="16%" alt="help.svg" title="help.svg"/><img src="reference/ai-town/ui/interact.svg" width="16%" alt="interact.svg" title="interact.svg"/><img src="reference/ai-town/ui/jewel_box.svg" width="16%" alt="jewel_box.svg" title="jewel_box.svg"/><img src="reference/ai-town/ui/star.svg" width="16%" alt="star.svg" title="star.svg"/><img src="reference/ai-town/ui/volume.svg" width="16%" alt="volume.svg" title="volume.svg"/>
 </p>
+
+---
+
+### pixel-agents
+
+[pixel-agents](https://github.com/pixel-agents-hq/pixel-agents) — **9,243 ★** — `64` files in `reference/pixel-agents/`
+
+#### `pixel-agents/assets/carpets`
+
 <p>
-<img src="reference/agent-town/playground-rocket.png" width="32%" alt="rocket skin"/>
-<img src="reference/agent-town/playground-space-station.png" width="32%" alt="space station skin"/>
-<img src="reference/agent-town/playground-agents.png" width="32%" alt="agents view"/>
+<img src="reference/pixel-agents/assets/carpets/carpet_0.png" width="16%" alt="carpet_0.png" title="carpet_0.png"/><img src="reference/pixel-agents/assets/carpets/carpet_1.png" width="16%" alt="carpet_1.png" title="carpet_1.png"/><img src="reference/pixel-agents/assets/carpets/carpet_2.png" width="16%" alt="carpet_2.png" title="carpet_2.png"/>
 </p>
+
+#### `pixel-agents/assets/characters`
+
 <p>
-<img src="reference/agent-town/dashboard-agents.png" width="24%" alt="dashboard agents"/>
-<img src="reference/agent-town/dashboard-kanban.png" width="24%" alt="dashboard kanban"/>
-<img src="reference/agent-town/dashboard-timeline.png" width="24%" alt="dashboard timeline"/>
-<img src="reference/agent-town/dashboard-analytics.png" width="24%" alt="dashboard analytics"/>
+<img src="reference/pixel-agents/assets/characters/char_0.png" width="16%" alt="char_0.png" title="char_0.png"/><img src="reference/pixel-agents/assets/characters/char_1.png" width="16%" alt="char_1.png" title="char_1.png"/><img src="reference/pixel-agents/assets/characters/char_2.png" width="16%" alt="char_2.png" title="char_2.png"/><img src="reference/pixel-agents/assets/characters/char_3.png" width="16%" alt="char_3.png" title="char_3.png"/><img src="reference/pixel-agents/assets/characters/char_4.png" width="16%" alt="char_4.png" title="char_4.png"/><img src="reference/pixel-agents/assets/characters/char_5.png" width="16%" alt="char_5.png" title="char_5.png"/>
 </p>
+
+#### `pixel-agents/assets/floors`
+
+<p>
+<img src="reference/pixel-agents/assets/floors/floor_0.png" width="16%" alt="floor_0.png" title="floor_0.png"/><img src="reference/pixel-agents/assets/floors/floor_1.png" width="16%" alt="floor_1.png" title="floor_1.png"/><img src="reference/pixel-agents/assets/floors/floor_2.png" width="16%" alt="floor_2.png" title="floor_2.png"/><img src="reference/pixel-agents/assets/floors/floor_3.png" width="16%" alt="floor_3.png" title="floor_3.png"/><img src="reference/pixel-agents/assets/floors/floor_4.png" width="16%" alt="floor_4.png" title="floor_4.png"/><img src="reference/pixel-agents/assets/floors/floor_5.png" width="16%" alt="floor_5.png" title="floor_5.png"/><img src="reference/pixel-agents/assets/floors/floor_6.png" width="16%" alt="floor_6.png" title="floor_6.png"/><img src="reference/pixel-agents/assets/floors/floor_7.png" width="16%" alt="floor_7.png" title="floor_7.png"/><img src="reference/pixel-agents/assets/floors/floor_8.png" width="16%" alt="floor_8.png" title="floor_8.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/BIN`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/BIN/BIN.png" width="16%" alt="BIN.png" title="BIN.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/BOOKSHELF`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/BOOKSHELF/BOOKSHELF.png" width="16%" alt="BOOKSHELF.png" title="BOOKSHELF.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/CACTUS`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/CACTUS/CACTUS.png" width="16%" alt="CACTUS.png" title="CACTUS.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/CLOCK`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/CLOCK/CLOCK.png" width="16%" alt="CLOCK.png" title="CLOCK.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/COFFEE`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/COFFEE/COFFEE.png" width="16%" alt="COFFEE.png" title="COFFEE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/COFFEE_TABLE`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/COFFEE_TABLE/COFFEE_TABLE.png" width="16%" alt="COFFEE_TABLE.png" title="COFFEE_TABLE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/CUSHIONED_BENCH`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/CUSHIONED_BENCH/CUSHIONED_BENCH.png" width="16%" alt="CUSHIONED_BENCH.png" title="CUSHIONED_BENCH.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/CUSHIONED_CHAIR`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/CUSHIONED_CHAIR/CUSHIONED_CHAIR_BACK.png" width="16%" alt="CUSHIONED_CHAIR_BACK.png" title="CUSHIONED_CHAIR_BACK.png"/><img src="reference/pixel-agents/assets/furniture/CUSHIONED_CHAIR/CUSHIONED_CHAIR_FRONT.png" width="16%" alt="CUSHIONED_CHAIR_FRONT.png" title="CUSHIONED_CHAIR_FRONT.png"/><img src="reference/pixel-agents/assets/furniture/CUSHIONED_CHAIR/CUSHIONED_CHAIR_SIDE.png" width="16%" alt="CUSHIONED_CHAIR_SIDE.png" title="CUSHIONED_CHAIR_SIDE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/DESK`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/DESK/DESK_FRONT.png" width="16%" alt="DESK_FRONT.png" title="DESK_FRONT.png"/><img src="reference/pixel-agents/assets/furniture/DESK/DESK_SIDE.png" width="16%" alt="DESK_SIDE.png" title="DESK_SIDE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/DOUBLE_BOOKSHELF`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/DOUBLE_BOOKSHELF/DOUBLE_BOOKSHELF.png" width="16%" alt="DOUBLE_BOOKSHELF.png" title="DOUBLE_BOOKSHELF.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/HANGING_PLANT`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/HANGING_PLANT/HANGING_PLANT.png" width="16%" alt="HANGING_PLANT.png" title="HANGING_PLANT.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/LARGE_PAINTING`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/LARGE_PAINTING/LARGE_PAINTING.png" width="16%" alt="LARGE_PAINTING.png" title="LARGE_PAINTING.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/LARGE_PLANT`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/LARGE_PLANT/LARGE_PLANT.png" width="16%" alt="LARGE_PLANT.png" title="LARGE_PLANT.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/PC`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/PC/PC_BACK.png" width="16%" alt="PC_BACK.png" title="PC_BACK.png"/><img src="reference/pixel-agents/assets/furniture/PC/PC_FRONT_OFF.png" width="16%" alt="PC_FRONT_OFF.png" title="PC_FRONT_OFF.png"/><img src="reference/pixel-agents/assets/furniture/PC/PC_FRONT_ON_1.png" width="16%" alt="PC_FRONT_ON_1.png" title="PC_FRONT_ON_1.png"/><img src="reference/pixel-agents/assets/furniture/PC/PC_FRONT_ON_2.png" width="16%" alt="PC_FRONT_ON_2.png" title="PC_FRONT_ON_2.png"/><img src="reference/pixel-agents/assets/furniture/PC/PC_FRONT_ON_3.png" width="16%" alt="PC_FRONT_ON_3.png" title="PC_FRONT_ON_3.png"/><img src="reference/pixel-agents/assets/furniture/PC/PC_SIDE.png" width="16%" alt="PC_SIDE.png" title="PC_SIDE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/PLANT`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/PLANT/PLANT.png" width="16%" alt="PLANT.png" title="PLANT.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/PLANT_2`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/PLANT_2/PLANT_2.png" width="16%" alt="PLANT_2.png" title="PLANT_2.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/POT`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/POT/POT.png" width="16%" alt="POT.png" title="POT.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/SMALL_PAINTING`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/SMALL_PAINTING/SMALL_PAINTING.png" width="16%" alt="SMALL_PAINTING.png" title="SMALL_PAINTING.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/SMALL_PAINTING_2`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/SMALL_PAINTING_2/SMALL_PAINTING_2.png" width="16%" alt="SMALL_PAINTING_2.png" title="SMALL_PAINTING_2.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/SMALL_TABLE`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/SMALL_TABLE/SMALL_TABLE_FRONT.png" width="16%" alt="SMALL_TABLE_FRONT.png" title="SMALL_TABLE_FRONT.png"/><img src="reference/pixel-agents/assets/furniture/SMALL_TABLE/SMALL_TABLE_SIDE.png" width="16%" alt="SMALL_TABLE_SIDE.png" title="SMALL_TABLE_SIDE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/SOFA`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/SOFA/SOFA_BACK.png" width="16%" alt="SOFA_BACK.png" title="SOFA_BACK.png"/><img src="reference/pixel-agents/assets/furniture/SOFA/SOFA_FRONT.png" width="16%" alt="SOFA_FRONT.png" title="SOFA_FRONT.png"/><img src="reference/pixel-agents/assets/furniture/SOFA/SOFA_SIDE.png" width="16%" alt="SOFA_SIDE.png" title="SOFA_SIDE.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/TABLE_FRONT`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/TABLE_FRONT/TABLE_FRONT.png" width="16%" alt="TABLE_FRONT.png" title="TABLE_FRONT.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/WHITEBOARD`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/WHITEBOARD/WHITEBOARD.png" width="16%" alt="WHITEBOARD.png" title="WHITEBOARD.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/WOODEN_BENCH`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/WOODEN_BENCH/WOODEN_BENCH.png" width="16%" alt="WOODEN_BENCH.png" title="WOODEN_BENCH.png"/>
+</p>
+
+#### `pixel-agents/assets/furniture/WOODEN_CHAIR`
+
+<p>
+<img src="reference/pixel-agents/assets/furniture/WOODEN_CHAIR/WOODEN_CHAIR_BACK.png" width="16%" alt="WOODEN_CHAIR_BACK.png" title="WOODEN_CHAIR_BACK.png"/><img src="reference/pixel-agents/assets/furniture/WOODEN_CHAIR/WOODEN_CHAIR_FRONT.png" width="16%" alt="WOODEN_CHAIR_FRONT.png" title="WOODEN_CHAIR_FRONT.png"/><img src="reference/pixel-agents/assets/furniture/WOODEN_CHAIR/WOODEN_CHAIR_SIDE.png" width="16%" alt="WOODEN_CHAIR_SIDE.png" title="WOODEN_CHAIR_SIDE.png"/>
+</p>
+
+#### `pixel-agents/assets/pets/claudio`
+
+<p>
+<img src="reference/pixel-agents/assets/pets/claudio/pet.png" width="16%" alt="pet.png" title="pet.png"/>
+</p>
+
+#### `pixel-agents/assets/pets/gitcat`
+
+<p>
+<img src="reference/pixel-agents/assets/pets/gitcat/pet.png" width="16%" alt="pet.png" title="pet.png"/>
+</p>
+
+#### `pixel-agents/assets/walls`
+
+<p>
+<img src="reference/pixel-agents/assets/walls/wall_0.png" width="16%" alt="wall_0.png" title="wall_0.png"/>
+</p>
+
+**`banner.png`**
+
+<img width="100%" src="reference/pixel-agents/banner.png" alt="banner.png"/>
+
+**`characters.png`**
+
+<img width="100%" src="reference/pixel-agents/characters.png" alt="characters.png"/>
+
+**`office.png`**
+
+<img width="100%" src="reference/pixel-agents/office.png" alt="office.png"/>
+
+**`Screenshot.jpg`**
+
+<img width="100%" src="reference/pixel-agents/Screenshot.jpg" alt="Screenshot.jpg"/>
+
+<p>
+<img src="reference/pixel-agents/icon.png" width="16%" alt="icon.png" title="icon.png"/>
+</p>
+
+---
+
+### 3d.city
+
+[3d.city](https://github.com/lo-th/3d.city) — **1,744 ★** — `15` files in `reference/3d-city/`
+
+#### `3d-city/img`
+
+**`build_0.png`**
+
+<img width="100%" src="reference/3d-city/img/build_0.png" alt="build_0.png"/>
+
+**`build_1.png`**
+
+<img width="100%" src="reference/3d-city/img/build_1.png" alt="build_1.png"/>
+
+**`preview01.jpg`**
+
+<img width="100%" src="reference/3d-city/img/preview01.jpg" alt="preview01.jpg"/>
+
+**`preview02.jpg`**
+
+<img width="100%" src="reference/3d-city/img/preview02.jpg" alt="preview02.jpg"/>
+
+**`preview03.jpg`**
+
+<img width="100%" src="reference/3d-city/img/preview03.jpg" alt="preview03.jpg"/>
+
+**`tuto.png`**
+
+<img width="100%" src="reference/3d-city/img/tuto.png" alt="tuto.png"/>
+
+<p>
+<img src="reference/3d-city/img/stripe_l.png" width="16%" alt="stripe_l.png" title="stripe_l.png"/><img src="reference/3d-city/img/stripe_r.png" width="16%" alt="stripe_r.png" title="stripe_r.png"/>
+</p>
+
+#### `3d-city/textures`
+
+**`building.png`**
+
+<img width="100%" src="reference/3d-city/textures/building.png" alt="building.png"/>
+
+**`cars.png`**
+
+<img width="100%" src="reference/3d-city/textures/cars.png" alt="cars.png"/>
+
+**`ground1k.png`**
+
+<img width="100%" src="reference/3d-city/textures/ground1k.png" alt="ground1k.png"/>
+
+**`road.png`**
+
+<img width="100%" src="reference/3d-city/textures/road.png" alt="road.png"/>
+
+**`tiles.png`**
+
+<img width="100%" src="reference/3d-city/textures/tiles.png" alt="tiles.png"/>
+
+**`title.png`**
+
+<img width="100%" src="reference/3d-city/textures/title.png" alt="title.png"/>
+
+**`town.png`**
+
+<img width="100%" src="reference/3d-city/textures/town.png" alt="town.png"/>
+
+---
+
+### JSCity
+
+[JSCity](https://github.com/aserg-ufmg/JSCity) — **1,400 ★** — `80` files in `reference/jscity/`
+
+#### `jscity/cities`
+
+**`ace.png`**
+
+<img width="100%" src="reference/jscity/cities/ace.png" alt="ace.png"/>
+
+**`algorithmsjs.png`**
+
+<img width="100%" src="reference/jscity/cities/algorithmsjs.png" alt="algorithmsjs.png"/>
+
+**`algoritmsjs.png`**
+
+<img width="100%" src="reference/jscity/cities/algoritmsjs.png" alt="algoritmsjs.png"/>
+
+**`angular.png`**
+
+<img width="100%" src="reference/jscity/cities/angular.png" alt="angular.png"/>
+
+**`angularjs.png`**
+
+<img width="100%" src="reference/jscity/cities/angularjs.png" alt="angularjs.png"/>
+
+**`backbone.png`**
+
+<img width="100%" src="reference/jscity/cities/backbone.png" alt="backbone.png"/>
+
+**`bootstrap.png`**
+
+<img width="100%" src="reference/jscity/cities/bootstrap.png" alt="bootstrap.png"/>
+
+**`bower.png`**
+
+<img width="100%" src="reference/jscity/cities/bower.png" alt="bower.png"/>
+
+**`cappuccino.png`**
+
+<img width="100%" src="reference/jscity/cities/cappuccino.png" alt="cappuccino.png"/>
+
+**`chart.png`**
+
+<img width="100%" src="reference/jscity/cities/chart.png" alt="chart.png"/>
+
+**`chartjs.png`**
+
+<img width="100%" src="reference/jscity/cities/chartjs.png" alt="chartjs.png"/>
+
+**`clumsy-bird.png`**
+
+<img width="100%" src="reference/jscity/cities/clumsy-bird.png" alt="clumsy-bird.png"/>
+
+**`clumsybird.png`**
+
+<img width="100%" src="reference/jscity/cities/clumsybird.png" alt="clumsybird.png"/>
+
+**`crafty.png`**
+
+<img width="100%" src="reference/jscity/cities/crafty.png" alt="crafty.png"/>
+
+**`d3js.png`**
+
+<img width="100%" src="reference/jscity/cities/d3js.png" alt="d3js.png"/>
+
+**`Deck.png`**
+
+<img width="100%" src="reference/jscity/cities/Deck.png" alt="Deck.png"/>
+
+**`deckjs.png`**
+
+<img width="100%" src="reference/jscity/cities/deckjs.png" alt="deckjs.png"/>
+
+**`dexter.png`**
+
+<img width="100%" src="reference/jscity/cities/dexter.png" alt="dexter.png"/>
+
+**`dojo.png`**
+
+<img width="100%" src="reference/jscity/cities/dojo.png" alt="dojo.png"/>
+
+**`dust.png`**
+
+<img width="100%" src="reference/jscity/cities/dust.png" alt="dust.png"/>
+
+**`easelJs.png`**
+
+<img width="100%" src="reference/jscity/cities/easelJs.png" alt="easelJs.png"/>
+
+**`ember.png`**
+
+<img width="100%" src="reference/jscity/cities/ember.png" alt="ember.png"/>
+
+**`express.png`**
+
+<img width="100%" src="reference/jscity/cities/express.png" alt="express.png"/>
+
+**`florajs.png`**
+
+<img width="100%" src="reference/jscity/cities/florajs.png" alt="florajs.png"/>
+
+**`ghost.png`**
+
+<img width="100%" src="reference/jscity/cities/ghost.png" alt="ghost.png"/>
+
+**`grunt.png`**
+
+<img width="100%" src="reference/jscity/cities/grunt.png" alt="grunt.png"/>
+
+**`gulp.png`**
+
+<img width="100%" src="reference/jscity/cities/gulp.png" alt="gulp.png"/>
+
+**`impress.png`**
+
+<img width="100%" src="reference/jscity/cities/impress.png" alt="impress.png"/>
+
+**`impressjs.png`**
+
+<img width="100%" src="reference/jscity/cities/impressjs.png" alt="impressjs.png"/>
+
+**`intern.png`**
+
+<img width="100%" src="reference/jscity/cities/intern.png" alt="intern.png"/>
+
+**`ionic.png`**
+
+<img width="100%" src="reference/jscity/cities/ionic.png" alt="ionic.png"/>
+
+**`isome.png`**
+
+<img width="100%" src="reference/jscity/cities/isome.png" alt="isome.png"/>
+
+**`isomer.png`**
+
+<img width="100%" src="reference/jscity/cities/isomer.png" alt="isomer.png"/>
+
+**`istanbul.png`**
+
+<img width="100%" src="reference/jscity/cities/istanbul.png" alt="istanbul.png"/>
+
+**`jade.png`**
+
+<img width="100%" src="reference/jscity/cities/jade.png" alt="jade.png"/>
+
+**`jasmine (2).png`**
+
+<img width="100%" src="reference/jscity/cities/jasmine (2).png" alt="jasmine (2).png"/>
+
+**`jasmine.png`**
+
+<img width="100%" src="reference/jscity/cities/jasmine.png" alt="jasmine.png"/>
+
+**`jasmini.png`**
+
+<img width="100%" src="reference/jscity/cities/jasmini.png" alt="jasmini.png"/>
+
+**`jquery-file-upload.png`**
+
+<img width="100%" src="reference/jscity/cities/jquery-file-upload.png" alt="jquery-file-upload.png"/>
+
+**`jquery.png`**
+
+<img width="100%" src="reference/jscity/cities/jquery.png" alt="jquery.png"/>
+
+**`jqueryfileupload.png`**
+
+<img width="100%" src="reference/jscity/cities/jqueryfileupload.png" alt="jqueryfileupload.png"/>
+
+**`js-git.png`**
+
+<img width="100%" src="reference/jscity/cities/js-git.png" alt="js-git.png"/>
+
+**`karma.png`**
+
+<img width="100%" src="reference/jscity/cities/karma.png" alt="karma.png"/>
+
+**`knockout.png`**
+
+<img width="100%" src="reference/jscity/cities/knockout.png" alt="knockout.png"/>
+
+**`leaflet.png`**
+
+<img width="100%" src="reference/jscity/cities/leaflet.png" alt="leaflet.png"/>
+
+**`less.png`**
+
+<img width="100%" src="reference/jscity/cities/less.png" alt="less.png"/>
+
+**`meteor.png`**
+
+<img width="100%" src="reference/jscity/cities/meteor.png" alt="meteor.png"/>
+
+**`mocha.png`**
+
+<img width="100%" src="reference/jscity/cities/mocha.png" alt="mocha.png"/>
+
+**`modernizr.png`**
+
+<img width="100%" src="reference/jscity/cities/modernizr.png" alt="modernizr.png"/>
+
+**`mootools.png`**
+
+<img width="100%" src="reference/jscity/cities/mootools.png" alt="mootools.png"/>
+
+**`move.png`**
+
+<img width="100%" src="reference/jscity/cities/move.png" alt="move.png"/>
+
+**`mustache.png`**
+
+<img width="100%" src="reference/jscity/cities/mustache.png" alt="mustache.png"/>
+
+**`paper.png`**
+
+<img width="100%" src="reference/jscity/cities/paper.png" alt="paper.png"/>
+
+**`paperjs.png`**
+
+<img width="100%" src="reference/jscity/cities/paperjs.png" alt="paperjs.png"/>
+
+**`parallax.png`**
+
+<img width="100%" src="reference/jscity/cities/parallax.png" alt="parallax.png"/>
+
+**`pdfjs.png`**
+
+<img width="100%" src="reference/jscity/cities/pdfjs.png" alt="pdfjs.png"/>
+
+**`phase.png`**
+
+<img width="100%" src="reference/jscity/cities/phase.png" alt="phase.png"/>
+
+**`pixi.png`**
+
+<img width="100%" src="reference/jscity/cities/pixi.png" alt="pixi.png"/>
+
+**`pug.png`**
+
+<img width="100%" src="reference/jscity/cities/pug.png" alt="pug.png"/>
+
+**`quintus.png`**
+
+<img width="100%" src="reference/jscity/cities/quintus.png" alt="quintus.png"/>
+
+**`react.png`**
+
+<img width="100%" src="reference/jscity/cities/react.png" alt="react.png"/>
+
+**`respond.png`**
+
+<img width="100%" src="reference/jscity/cities/respond.png" alt="respond.png"/>
+
+**`reveal.png`**
+
+<img width="100%" src="reference/jscity/cities/reveal.png" alt="reveal.png"/>
+
+**`riot.png`**
+
+<img width="100%" src="reference/jscity/cities/riot.png" alt="riot.png"/>
+
+**`rot.png`**
+
+<img width="100%" src="reference/jscity/cities/rot.png" alt="rot.png"/>
+
+**`select2.png`**
+
+<img width="100%" src="reference/jscity/cities/select2.png" alt="select2.png"/>
+
+**`semantic-ui.png`**
+
+<img width="100%" src="reference/jscity/cities/semantic-ui.png" alt="semantic-ui.png"/>
+
+**`semanticui.png`**
+
+<img width="100%" src="reference/jscity/cities/semanticui.png" alt="semanticui.png"/>
+
+**`slick.png`**
+
+<img width="100%" src="reference/jscity/cities/slick.png" alt="slick.png"/>
+
+**`snap.png`**
+
+<img width="100%" src="reference/jscity/cities/snap.png" alt="snap.png"/>
+
+**`socket.io.png`**
+
+<img width="100%" src="reference/jscity/cities/socket.io.png" alt="socket.io.png"/>
+
+**`soket.io.png`**
+
+<img width="100%" src="reference/jscity/cities/soket.io.png" alt="soket.io.png"/>
+
+**`textillate.png`**
+
+<img width="100%" src="reference/jscity/cities/textillate.png" alt="textillate.png"/>
+
+**`threejs.png`**
+
+<img width="100%" src="reference/jscity/cities/threejs.png" alt="threejs.png"/>
+
+**`tween.png`**
+
+<img width="100%" src="reference/jscity/cities/tween.png" alt="tween.png"/>
+
+**`underscore.png`**
+
+<img width="100%" src="reference/jscity/cities/underscore.png" alt="underscore.png"/>
+
+**`velocity.png`**
+
+<img width="100%" src="reference/jscity/cities/velocity.png" alt="velocity.png"/>
+
+**`zepto.png`**
+
+<img width="100%" src="reference/jscity/cities/zepto.png" alt="zepto.png"/>
+
+<p>
+<img src="reference/jscity/favicon.png" width="16%" alt="favicon.png" title="favicon.png"/><img src="reference/jscity/rect.png" width="16%" alt="rect.png" title="rect.png"/>
+</p>
+
+---
+
+### agent-office
+
+[agent-office](https://github.com/harishkotra/agent-office) — **265 ★** — `7` files in `reference/agent-office/`
+
+**`characters.png`**
+
+<img width="100%" src="reference/agent-office/characters.png" alt="characters.png"/>
+
+<p>
+<img src="reference/agent-office/char_0.png" width="16%" alt="char_0.png" title="char_0.png"/><img src="reference/agent-office/char_1.png" width="16%" alt="char_1.png" title="char_1.png"/><img src="reference/agent-office/char_2.png" width="16%" alt="char_2.png" title="char_2.png"/><img src="reference/agent-office/char_3.png" width="16%" alt="char_3.png" title="char_3.png"/><img src="reference/agent-office/char_4.png" width="16%" alt="char_4.png" title="char_4.png"/><img src="reference/agent-office/char_5.png" width="16%" alt="char_5.png" title="char_5.png"/>
+</p>
+
+---
+
+### city-tour
+
+[city-tour](https://github.com/jstrait/city-tour) — **88 ★** — `2` files in `reference/city-tour/`
+
+**`city_tour.gif`**
+
+<img width="100%" src="reference/city-tour/city_tour.gif" alt="city_tour.gif"/>
+
+<p>
+<img src="reference/city-tour/grid.png" width="16%" alt="grid.png" title="grid.png"/>
+</p>
+
+---
+
+### agent-town
+
+[agent-town](https://github.com/rafapetter/agent-town) — **5 ★** — `11` files in `reference/agent-town/`
+
+**`dashboard-agents.png`**
+
+<img width="100%" src="reference/agent-town/dashboard-agents.png" alt="dashboard-agents.png"/>
+
+**`dashboard-analytics.png`**
+
+<img width="100%" src="reference/agent-town/dashboard-analytics.png" alt="dashboard-analytics.png"/>
+
+**`dashboard-kanban.png`**
+
+<img width="100%" src="reference/agent-town/dashboard-kanban.png" alt="dashboard-kanban.png"/>
+
+**`dashboard-timeline.png`**
+
+<img width="100%" src="reference/agent-town/dashboard-timeline.png" alt="dashboard-timeline.png"/>
+
+**`playground-agents.png`**
+
+<img width="100%" src="reference/agent-town/playground-agents.png" alt="playground-agents.png"/>
+
+**`playground-farm.png`**
+
+<img width="100%" src="reference/agent-town/playground-farm.png" alt="playground-farm.png"/>
+
+**`playground-office.png`**
+
+<img width="100%" src="reference/agent-town/playground-office.png" alt="playground-office.png"/>
+
+**`playground-pirate-ship.png`**
+
+<img width="100%" src="reference/agent-town/playground-pirate-ship.png" alt="playground-pirate-ship.png"/>
+
+**`playground-rocket.png`**
+
+<img width="100%" src="reference/agent-town/playground-rocket.png" alt="playground-rocket.png"/>
+
+**`playground-space-station.png`**
+
+<img width="100%" src="reference/agent-town/playground-space-station.png" alt="playground-space-station.png"/>
+
+**`playground-town.png`**
+
+<img width="100%" src="reference/agent-town/playground-town.png" alt="playground-town.png"/>
+
+---
+
+### CodeCity
+
+[CodeCity](https://wettel.github.io/codecity.html) — **— ★** — `12` files in `reference/code-city/`
+
+**`codecity-ated-ict-2008.png`**
+
+<img width="100%" src="reference/code-city/codecity-ated-ict-2008.png" alt="codecity-ated-ict-2008.png"/>
+
+**`codecity-screenshot.png`**
+
+<img width="100%" src="reference/code-city/codecity-screenshot.png" alt="codecity-screenshot.png"/>
+
+**`gource-git.jpg`**
+
+<img width="100%" src="reference/code-city/gource-git.jpg" alt="gource-git.jpg"/>
+
+**`gource-linux.jpg`**
+
+<img width="100%" src="reference/code-city/gource-linux.jpg" alt="gource-linux.jpg"/>
+
+**`gource-papervision.jpg`**
+
+<img width="100%" src="reference/code-city/gource-papervision.jpg" alt="gource-papervision.jpg"/>
+
+#### `code-city/wof`
+
+**`argouml.png`**
+
+<img width="100%" src="reference/code-city/wof/argouml.png" alt="argouml.png"/>
+
+**`codecity.png`**
+
+<img width="100%" src="reference/code-city/wof/codecity.png" alt="codecity.png"/>
+
+**`jdk.png`**
+
+<img width="100%" src="reference/code-city/wof/jdk.png" alt="jdk.png"/>
+
+**`jhotdraw7.png`**
+
+<img width="100%" src="reference/code-city/wof/jhotdraw7.png" alt="jhotdraw7.png"/>
+
+**`jmol.png`**
+
+<img width="100%" src="reference/code-city/wof/jmol.png" alt="jmol.png"/>
+
+**`moose-suite.png`**
+
+<img width="100%" src="reference/code-city/wof/moose-suite.png" alt="moose-suite.png"/>
+
+**`vuze.png`**
+
+<img width="100%" src="reference/code-city/wof/vuze.png" alt="vuze.png"/>
 
 ---
 
@@ -350,7 +1268,7 @@ M0 through M2 is the honest minimum for something worth showing.
 | **Corpus size** | `2.5 GB` | Grows every session |
 | **Largest session** | `17,256` | Lines in one `.jsonl` |
 | **Prior-art projects surveyed** | `15` | Across three camps, tables sorted by stars |
-| **Reference assets mirrored** | `397` | 40 MB under `reference/`, licences in `ATTRIBUTION.md` |
+| **Reference assets mirrored** | `350` images | All embedded in this README. 40 MB under `reference/`, licences in `ATTRIBUTION.md` |
 | **Lines of Agent City code** | `0` | Idea stage |
 
 ---
