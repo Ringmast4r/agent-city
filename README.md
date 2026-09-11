@@ -70,6 +70,14 @@ Agent City is the join: **real terrain from the actual file tree, walked by real
 citizens from actual tool calls, over a real time axis** - plus the thing nobody else
 has at all, a back catalogue of 1,553 sessions to replay as a chronicle.
 
+The three camps, in pixels:
+
+<p>
+<img src="reference/pixel-agents/Screenshot.jpg" width="32%" alt="pixel-agents — map is furniture"/>
+<img src="reference/agent-town/playground-town.png" width="32%" alt="agent-town — map is task state"/>
+<img src="reference/code-city/codecity-screenshot.png" width="32%" alt="CodeCity — map is the code"/>
+</p>
+
 ---
 
 ## `> prior_art`
@@ -109,84 +117,148 @@ Surveyed 2026-09-11, **sorted by GitHub stars**. Screenshots and sprites are und
 
 ## `> look`
 
-Highest stars first. These files live in this repo under `reference/`, so they render here and open on disk.
+Highest stars first. Every image is a file in this repo under `reference/`.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Generative Agents — 22,087 ★
 
-**Generative Agents — 22,087 ★**
-Smallville. The map is furniture; the paper that started the look.
+Smallville. The 2023 paper that started the look. The map is a town, not a codebase.
 
-<img src="reference/generative-agents/the_ville_collision.png" alt="Smallville map"/>
+<img width="100%" src="reference/generative-agents/the_ville_collision.png" alt="Smallville map"/>
 
-</td>
-<td width="50%" valign="top">
+<img width="100%" src="reference/generative-agents/cover.png" alt="Generative Agents paper cover"/>
 
-**Gource — 13,138 ★**
-Repo history as a growing tree. The time axis, done.
+<p>
+<img src="reference/generative-agents/characters/Isabella_Rodriguez.png" width="19%" alt="Isabella Rodriguez"/>
+<img src="reference/generative-agents/characters/Klaus_Mueller.png" width="19%" alt="Klaus Mueller"/>
+<img src="reference/generative-agents/characters/Maria_Lopez.png" width="19%" alt="Maria Lopez"/>
+<img src="reference/generative-agents/characters/John_Lin.png" width="19%" alt="John Lin"/>
+<img src="reference/generative-agents/characters/Abigail_Chen.png" width="19%" alt="Abigail Chen"/>
+</p>
 
-<img src="reference/code-city/gource-linux.jpg" alt="Gource Linux history"/>
+### Gource — 13,138 ★
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Repo history as a growing tree. The time axis, done since 2009.
 
-**AI Town — 10,473 ★**
-PixiJS town, OpenGameArt tiles.
+<img width="100%" src="reference/code-city/gource-linux.jpg" alt="Gource Linux"/>
 
-<img src="reference/ai-town/tilesets/magecity.png" alt="AI Town magecity tileset"/>
+<p>
+<img src="reference/code-city/gource-git.jpg" width="49%" alt="Gource git"/>
+<img src="reference/code-city/gource-papervision.jpg" width="49%" alt="Gource Papervision"/>
+</p>
 
-</td>
-<td width="50%" valign="top">
+### AI Town — 10,473 ★
 
-**pixel-agents — 9,243 ★**
-Top-down office. Real Claude Code telemetry. Map is furniture.
+PixiJS town. Tilesets are OpenGameArt; the live view is a Stardew-style map.
 
-<img src="reference/pixel-agents/Screenshot.jpg" alt="pixel-agents office"/>
+<img width="100%" src="reference/ai-town/background.webp" alt="AI Town background"/>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<p>
+<img src="reference/ai-town/tilesets/magecity.png" width="32%" alt="magecity tileset"/>
+<img src="reference/ai-town/tilesets/forest.png" width="32%" alt="forest tileset"/>
+<img src="reference/ai-town/spritesheets/peeps.png" width="32%" alt="character spritesheet"/>
+</p>
 
-**3d.city — 1,744 ★**
-Procedural textured city. Pretty, not a metric.
+### pixel-agents — 9,243 ★
 
-<img src="reference/3d-city/img/preview02.jpg" alt="3d.city preview"/>
+Top-down office. Real Claude Code telemetry. The map is furniture.
 
-</td>
-<td width="50%" valign="top">
+<img width="100%" src="reference/pixel-agents/Screenshot.jpg" alt="pixel-agents office screenshot"/>
 
-**JSCity — 1,400 ★**
-AngularJS as a three.js city. Height = LOC.
+<p>
+<img src="reference/pixel-agents/office.png" width="49%" alt="office layout"/>
+<img src="reference/pixel-agents/characters.png" width="49%" alt="character lineup"/>
+</p>
 
-<img src="reference/jscity/cities/angular.png" alt="JSCity AngularJS"/>
+### 3d.city — 1,744 ★
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Procedural textured city. Pretty. Not a metric.
 
-**CodeCity — 2008, the target look**
-Flat colour, no texture. Every box is a class.
+<p>
+<img src="reference/3d-city/img/preview01.jpg" width="32%" alt="3d.city preview 1"/>
+<img src="reference/3d-city/img/preview02.jpg" width="32%" alt="3d.city preview 2"/>
+<img src="reference/3d-city/img/preview03.jpg" width="32%" alt="3d.city preview 3"/>
+</p>
 
-<img src="reference/code-city/codecity-screenshot.png" alt="CodeCity screenshot"/>
+### JSCity — 1,400 ★
 
-</td>
-<td width="50%" valign="top">
+JavaScript systems as three.js cities. Height = LOC, base = variables. Blue = named functions, green = anonymous.
 
-**agent-town — 5 ★**
-Kanban as terrain. Position = task state.
+<p>
+<img src="reference/jscity/cities/angular.png" width="24%" alt="JSCity AngularJS"/>
+<img src="reference/jscity/cities/jquery.png" width="24%" alt="JSCity jQuery"/>
+<img src="reference/jscity/cities/react.png" width="24%" alt="JSCity React"/>
+<img src="reference/jscity/cities/threejs.png" width="24%" alt="JSCity three.js"/>
+</p>
+<p>
+<img src="reference/jscity/cities/bootstrap.png" width="24%" alt="JSCity Bootstrap"/>
+<img src="reference/jscity/cities/leaflet.png" width="24%" alt="JSCity Leaflet"/>
+<img src="reference/jscity/cities/ghost.png" width="24%" alt="JSCity Ghost"/>
+<img src="reference/jscity/cities/ember.png" width="24%" alt="JSCity Ember"/>
+</p>
 
-<img src="reference/agent-town/playground-town.png" alt="agent-town playground"/>
+The other 50-odd stills are in [`reference/jscity/cities/`](reference/jscity/cities/).
 
-</td>
-</tr>
-</table>
+### CodeCity — 2008, the target look
 
-More stills: [JSCity cities](reference/jscity/cities/) (60 systems), [CodeCity Wall of Fame](reference/code-city/wof/), [city-tour.gif](reference/city-tour/city_tour.gif), [3d.city previews](reference/3d-city/img/).
+Flat colour, no texture. Every box is a class. This is the camera and the language.
+
+<img width="100%" src="reference/code-city/codecity-screenshot.png" alt="CodeCity screenshot"/>
+
+Wall of Fame — real systems, same metaphor:
+
+<p>
+<img src="reference/code-city/wof/jdk.png" width="32%" alt="CodeCity JDK 1.5"/>
+<img src="reference/code-city/wof/argouml.png" width="32%" alt="CodeCity ArgoUML"/>
+<img src="reference/code-city/wof/jhotdraw7.png" width="32%" alt="CodeCity JHotDraw7"/>
+</p>
+<p>
+<img src="reference/code-city/wof/vuze.png" width="32%" alt="CodeCity Vuze"/>
+<img src="reference/code-city/wof/moose-suite.png" width="32%" alt="CodeCity Moose"/>
+<img src="reference/code-city/wof/jmol.png" width="32%" alt="CodeCity Jmol"/>
+</p>
+
+### agent-office — 265 ★
+
+Phaser office. Simulated think-loop, not telemetry.
+
+<p>
+<img src="reference/agent-office/characters.png" width="49%" alt="agent-office characters"/>
+<img src="reference/agent-office/char_0.png" width="8%" alt="char 0"/>
+<img src="reference/agent-office/char_1.png" width="8%" alt="char 1"/>
+<img src="reference/agent-office/char_2.png" width="8%" alt="char 2"/>
+<img src="reference/agent-office/char_3.png" width="8%" alt="char 3"/>
+<img src="reference/agent-office/char_4.png" width="8%" alt="char 4"/>
+<img src="reference/agent-office/char_5.png" width="8%" alt="char 5"/>
+</p>
+
+### city-tour — 88 ★
+
+Procedural three.js flythrough.
+
+<img width="100%" src="reference/city-tour/city_tour.gif" alt="city-tour flythrough"/>
+
+### agent-town — 5 ★
+
+Kanban as terrain. Same mechanic, seven skins. Position = task state.
+
+<img width="100%" src="reference/agent-town/playground-town.png" alt="agent-town town"/>
+
+<p>
+<img src="reference/agent-town/playground-office.png" width="32%" alt="office skin"/>
+<img src="reference/agent-town/playground-farm.png" width="32%" alt="farm skin"/>
+<img src="reference/agent-town/playground-pirate-ship.png" width="32%" alt="pirate ship skin"/>
+</p>
+<p>
+<img src="reference/agent-town/playground-rocket.png" width="32%" alt="rocket skin"/>
+<img src="reference/agent-town/playground-space-station.png" width="32%" alt="space station skin"/>
+<img src="reference/agent-town/playground-agents.png" width="32%" alt="agents view"/>
+</p>
+<p>
+<img src="reference/agent-town/dashboard-agents.png" width="24%" alt="dashboard agents"/>
+<img src="reference/agent-town/dashboard-kanban.png" width="24%" alt="dashboard kanban"/>
+<img src="reference/agent-town/dashboard-timeline.png" width="24%" alt="dashboard timeline"/>
+<img src="reference/agent-town/dashboard-analytics.png" width="24%" alt="dashboard analytics"/>
+</p>
 
 ---
 

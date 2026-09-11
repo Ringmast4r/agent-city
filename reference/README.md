@@ -17,6 +17,8 @@ bookshelves, a kitchen, a lounge with armchairs, plants, dark navy void around t
 building edge. Characters stand at desks and animate by activity - typing when
 editing, reading when searching.
 
+<img width="100%" src="pixel-agents/Screenshot.jpg" alt="pixel-agents office"/>
+
 The map is **furniture**. It carries no information about the code. Move a desk and
 nothing changes about what you learn. The signal is entirely in the characters.
 
@@ -31,10 +33,18 @@ painted on the ground (17, 12), and named agents (Claude, Nova, Atlas, Sage, Ech
 Pixel, Luna, Bolt, Cosmo, Ivy, Aria) physically stand in the zone matching their task
 state, with `Chatting...` / `Discussing...` speech bubbles overhead.
 
+<img width="100%" src="agent-town/playground-town.png" alt="agent-town kanban town"/>
+
 The map is **state**. Position means something - it means task status. That is a real
 idea and much stronger than map-as-office, even though the repo has 5 stars. Seven
 themed skins of the same mechanic ship with it: town, office, farm, pirate ship,
 rocket, space station.
+
+<p>
+<img src="agent-town/playground-office.png" width="32%" alt="office"/>
+<img src="agent-town/playground-farm.png" width="32%" alt="farm"/>
+<img src="agent-town/playground-pirate-ship.png" width="32%" alt="pirate ship"/>
+</p>
 
 ### 3. Map-as-codebase - `code-city/`
 
@@ -43,6 +53,14 @@ Agent City should be. True isometric. Grey plates as districts, laid out as a fl
 plane you look down on at an angle. Buildings extruded as plain boxes in blue, grey
 and near-black - colour and height carry metrics, nothing is textured, nothing is
 decorative. It reads instantly as a city and yet every pixel is data.
+
+<img width="100%" src="code-city/codecity-screenshot.png" alt="CodeCity — the target look"/>
+
+<p>
+<img src="code-city/wof/jdk.png" width="32%" alt="JDK 1.5"/>
+<img src="jscity/cities/angular.png" width="32%" alt="JSCity AngularJS"/>
+<img src="code-city/gource-linux.jpg" width="32%" alt="Gource"/>
+</p>
 
 `gource-*.jpg` is the other half of this camp: the time axis, done right, since 2009.
 
